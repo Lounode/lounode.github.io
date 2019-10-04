@@ -247,7 +247,26 @@ classes that you can use:
 <script type="text/javascript">
   loadlive2d("live2d", "/live2d/model/tia/model.json");
 </script>
-    
+	
+<!-- Link Gitalk 的支持文件  -->
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
+<div id="gitalk-container"></div>     <script type="text/javascript">
+    var gitalk = new Gitalk({
+
+    // gitalk的主要参数
+        clientID: '3d078e1de30b397848e3',
+        clientSecret: '0a26f15862444183c7a88e635be8ea94de1a4180',
+        repo: 'https://github.com/Lounode/discuss',
+        owner: 'Lounode',
+        admin: ['Lounode'],
+        id:window.location.pathname,
+
+    });
+    gitalk.render('gitalk-container');
+</script> 
+<!-- Gitalk end -->
+
 </section>
 
 
