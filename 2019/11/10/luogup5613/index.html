@@ -15,7 +15,7 @@
     <meta name="description" content="真人面对面收割，美女角色在线掉分，发狂玩蛇新天地。					---Arcaea中文维基
 
 以下是正文
-可以考虑这么一张图
+可以考虑这么一张图：
 
 每次向上走 
 m
@@ -57,7 +57,7 @@ m+1
     <meta name="twitter:description" content="真人面对面收割，美女角色在线掉分，发狂玩蛇新天地。					---Arcaea中文维基
 
 以下是正文
-可以考虑这么一张图
+可以考虑这么一张图：
 
 每次向上走 
 m
@@ -99,7 +99,7 @@ m+1
     <meta property="og:description" content="真人面对面收割，美女角色在线掉分，发狂玩蛇新天地。					---Arcaea中文维基
 
 以下是正文
-可以考虑这么一张图
+可以考虑这么一张图：
 
 每次向上走 
 m
@@ -237,7 +237,7 @@ m+1
   <header class="post-header">
     <div class="post-meta">
       <time datetime="2019-11-10T11:52:25.000Z" class="post-list__meta--date date">2019-11-10</time> &#8226; <span class="post-meta__tags tags">于 
-  <a class="tag-link" href="/tags/题解/">题解</a>
+  <a class="tag-link" href="/tags/模拟/">模拟</a>, <a class="tag-link" href="/tags/题解/">题解</a>
  </span>
       <span class="page-pv">
        Read <span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span>
@@ -251,10 +251,10 @@ m+1
     <blockquote>
 <p>真人面对面收割，美女角色在线掉分，发狂玩蛇新天地。					---Arcaea中文维基</p>
 </blockquote>
-<p><s>以下是正文</s></p>
-<p>可以考虑这么一张图</p>
-<p><img src="http://wiki.arcaea.cn/images/thumb/a/a4/World_conclusion.jpg/800px-World_conclusion.jpg" alt></p>
-<p>每次向上走 <span class="mjpage"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="2.04ex" height="1.676ex" style="vertical-align: -0.338ex;" viewbox="0 -576.1 878.5 721.6" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-2-Title">
+<p><s>以下是正文</s><br>
+可以考虑这么一张图：<br>
+<img src="http://wiki.arcaea.cn/images/thumb/a/a4/World_conclusion.jpg/800px-World_conclusion.jpg" alt>
+每次向上走 <span class="mjpage"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="2.04ex" height="1.676ex" style="vertical-align: -0.338ex;" viewbox="0 -576.1 878.5 721.6" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-2-Title">
 <title id="MathJax-SVG-2-Title">m</title>
 <defs aria-hidden="true">
 <path stroke-width="1" id="E2-MJMATHI-6D" d="M21 287Q22 293 24 303T36 341T56 388T88 425T132 442T175 435T205 417T221 395T229 376L231 369Q231 367 232 367L243 378Q303 442 384 442Q401 442 415 440T441 433T460 423T475 411T485 398T493 385T497 373T500 364T502 357L510 367Q573 442 659 442Q713 442 746 415T780 336Q780 285 742 178T704 50Q705 36 709 31T724 26Q752 26 776 56T815 138Q818 149 821 151T837 153Q857 153 857 145Q857 144 853 130Q845 101 831 73T785 17T716 -10Q669 -10 648 17T627 73Q627 92 663 193T700 345Q700 404 656 404H651Q565 404 506 303L499 291L466 157Q433 26 428 16Q415 -11 385 -11Q372 -11 364 -4T353 8T350 18Q350 29 384 161L420 307Q423 322 423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 181Q151 335 151 342Q154 357 154 369Q154 405 129 405Q107 405 92 377T69 316T57 280Q55 278 41 278H27Q21 284 21 287Z"/>
@@ -336,7 +336,7 @@ m+1
  <use xlink:href="#E7-MJMAIN-30" x="1501" y="0"/>
 </g>
 </g>
-</svg></span> 所以我们可以开一个数组存储哪些是特殊平台 。然后模拟就好了</p>
+</svg></span> 所以我们可以开一个数组存储哪些是特殊平台 ，然后模拟就好了。</p>
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span> <span class="params">()</span> </span>&#123;</span><br><span class="line">	<span class="keyword">int</span> n,m,k;</span><br><span class="line">	<span class="keyword">int</span> a[<span class="number">1010</span>];</span><br><span class="line">	<span class="built_in">cin</span> &gt;&gt; n &gt;&gt; m &gt;&gt; k;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">1</span>; i &lt;= k; i++) &#123;</span><br><span class="line">		<span class="keyword">int</span> in;</span><br><span class="line">		<span class="built_in">cin</span>&gt;&gt;in;</span><br><span class="line">		a[in]=<span class="number">1</span>;<span class="comment">//存储特殊格子</span></span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">int</span> ans=<span class="number">0</span>;</span><br><span class="line">	<span class="keyword">int</span> t=<span class="number">0</span>;<span class="comment">//当前位置</span></span><br><span class="line">	<span class="keyword">while</span> (<span class="literal">true</span>) &#123;</span><br><span class="line">		<span class="keyword">if</span>(n-m&lt;=<span class="number">0</span>) &#123;<span class="comment">//边界</span></span><br><span class="line">			ans++;<span class="comment">//即使剩余格子小于m 也还是需要走一次的</span></span><br><span class="line">			<span class="keyword">break</span>;</span><br><span class="line">		&#125;</span><br><span class="line">		n-=m;<span class="comment">//剩余格子</span></span><br><span class="line">		t+=m;<span class="comment">//当前位置</span></span><br><span class="line">		m+=a[t];<span class="comment">//如果特殊为格子 m+=1</span></span><br><span class="line">		ans++;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="built_in">cout</span>&lt;&lt;ans;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
   </section>
 
@@ -345,6 +345,35 @@ m+1
 <section class="read-more">
            
     
+               
+            <div class="read-more-item">
+                <span class="read-more-item-dim">Newer Post</span>
+                <h2 class="post-list__post-title post-title"><a href="/2019/11/10/segmenttree/" title="线段树">线段树</a></h2>
+                <p class="excerpt">
+                
+                假设有这么一些问题：
+这些问题都可以抽象成若干个区间操作，那么问题来了，如何处理这些操作呢？
+首先我们考虑一下朴素做法，每次操作时，用 
+\text{for}
+
+
+
+
+
+
+ 
+ 
+ 
+
+ 循环从操作区间的左端点循环到右端点，在这个过程中维护一些信息，查询同理。
+但很快我们就发现，这种方法实在是过于低
+                &hellip;
+                </p>
+                <div class="post-list__meta"><time datetime="2019-11-10T14:56:16.000Z" class="post-list__meta--date date">2019-11-10</time> &#8226; <span class="post-list__meta--tags tags">于 
+  <a class="tag-link" href="/tags/线段树/">线段树</a>
+</span><a class="btn-border-small" href="/2019/11/10/segmenttree/">更多</a></div>
+                           
+            </div>
         
         
                
@@ -356,17 +385,9 @@ m+1
                 第一篇博客吧.QwQ 测试Markdown语法.
 
 顺便放点更新日志：
-
-
 19.10.4 Blog初步搭建完成，添加了看板娘。
-
-
 19.10.5 添加了评论系统。
-
-
 19.11.10 换了主题、Markdown渲染插件。
-
-
 
                 &hellip;
                 </p>
